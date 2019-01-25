@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-cz-common-modal",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,5 @@
     "react-native"
   ],
   "author": "",
-  "license": "",
-  "peerDependencies": {
-    "react-native": "^0.41.2"
-  }
+  "license": ""
 }
