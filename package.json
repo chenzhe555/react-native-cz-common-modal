@@ -11,5 +11,11 @@
     "react-native"
   ],
   "author": "",
-  "license": ""
+  "license": "",
+  "dependencies": {
+    "react-native-cz-common-modal": "0.0.1"
+  },
+  "devDependencies": {
+    "react-native-cz-common-modal": "0.0.1"
+  }
 }
