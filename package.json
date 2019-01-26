@@ -9,12 +9,12 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "陈哲是个好孩子",
+  "license": "MIT",
   "dependencies": {
-    "react-native-cz-common-modal": "0.0.1"
+    "react-native-cz-pack-element": "0.0.3"
   },
   "devDependencies": {
-    "react-native-cz-common-modal": "0.0.1"
+    "react-native-cz-pack-element": "0.0.3"
   }
 }
