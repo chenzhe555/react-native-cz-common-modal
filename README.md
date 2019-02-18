@@ -1,45 +1,34 @@
 
-# react-native-cz-common-modal
+## Manual installation
 
-## Getting started
+npm install react-native-cz-common-modal --save
 
-`$ npm install react-native-cz-common-modal --save`
-
-### Mostly automatic installation
-
-`$ react-native link react-native-cz-common-modal`
-
-### Manual installation
-
-
-#### iOS
-
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-cz-common-modal` and add `RNCzCommonModal.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNCzCommonModal.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
-
-#### Android
-
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.chenzhe.commonmodal.RNCzCommonModalPackage;` to the imports at the top of the file
-  - Add `new RNCzCommonModalPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-  	include ':react-native-cz-common-modal'
-  	project(':react-native-cz-common-modal').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-cz-common-modal/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      compile project(':react-native-cz-common-modal')
-  	```
-
+	
 
 ## Usage
-```javascript
-import RNCzCommonModal from 'react-native-cz-common-modal';
-
-// TODO: What to do with the module?
-RNCzCommonModal;
+###  1.引入组件
 ```
-  
+import CommonModal from 'react-native-cz-common-modal';
+
+```
+
+###  2.属性:
+###  3.属性方法:
+###  4.供外部调用的方法:
+```
+/*
+* 显示Modal视图,获取引用可以，不建议自己移除组件，需调用hide方法
+* */
+CommonModal.show(
+    <View style={[{backgroundColor: 'red', position: 'absolute', top: 0, left: 0, bottom: 0, right: 0, justifyContent: 'center', alignItems: 'center'}]}>
+        <Text>测试视图</Text>
+    </View>, 'ceshi-key'
+);
+```
+
+```
+/*
+* 隐藏Modal视图
+* */
+CommonModal.hide('ceshi-key');
+```
