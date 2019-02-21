@@ -22,7 +22,7 @@ import CommonModal from 'react-native-cz-common-modal';
 CommonModal.show(
     <View style={[{backgroundColor: 'red', position: 'absolute', top: 0, left: 0, bottom: 0, right: 0, justifyContent: 'center', alignItems: 'center'}]}>
         <Text>测试视图</Text>
-    </View>, 'ceshi-key'
+    </View>, 'ceshi-key(可不填，但每次就显示一个)'
 );
 ```
 
