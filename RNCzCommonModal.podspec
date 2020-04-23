@@ -3,7 +3,6 @@ Pod::Spec.new do |s|
   s.name         = "RNCzCommonModal"
   s.version      = "1.0.0"
   s.summary      = "RNCzCommonModal"
-  s.description  = "一个通用的Modal"
   s.homepage     = "https://github.com/chenzhe555/react-native-cz-common-modal"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "author" => "376811578@qq.com" }
